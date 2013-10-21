@@ -1,0 +1,157 @@
+body{
+background:url("../img/fondo.jpg") repeat-x;
+font-family:verdana,arial;
+color:white;
+margin: 0px;
+height: 100%;
+}
+
+h1,h2,h3,h4,h5{
+font-weight:lighter;
+}
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* Contenedor General */
+/*-------------------------------------------------------------------------------------------------------- */
+#contenedor_general{
+height:400px;
+width:1021px;
+margin:0 auto;
+}
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* Encabezado */
+/*-------------------------------------------------------------------------------------------------------- */
+#encabezado{
+float:left;
+height:150px;
+width:850px;
+}
+
+#encabezado img{
+margin-top:20px;
+margin-left:20px;
+float:left;
+}
+
+#encabezado form{
+margin-top:20px;
+font-size:12px;
+float:right;
+}
+
+#encabezado form a{
+text-decoration:none;
+color:white;
+}
+
+.olvido_contraseña{
+font-size:10px;
+}
+
+.usuario{
+background:url("../img/input_usuario.gif") no-repeat;
+border:none;
+height:16px;
+width:210px;
+}
+
+.password{
+background:url("../img/input_contraseña.gif") no-repeat;
+border:none;
+height:16px;
+width:188px;
+}
+
+.boton_login{
+background:url("../img/boton_login.png") no-repeat;
+padding-left:20px;
+padding-top:5px;
+float:right;
+height:26px;
+width:106px;
+}
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* Contenido */
+/*-------------------------------------------------------------------------------------------------------- */
+
+#contenido{
+background:url("../img/cuadro_dialogo.png") no-repeat;
+float:left;
+height:433px;
+width:871px;
+}
+
+#contenido a{
+background:url("../img/boton_registrarte.png") no-repeat;
+margin-left:500px;
+text-decoration:none;
+color:white;
+font-size:25px;
+float:left;
+padding-top:20px;
+padding-left:80px;
+height:57px;
+width:218px;
+}
+
+.titular{
+padding-left:485px;
+margin-top:50px;
+height:200px;
+width:400px;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* Información Adicional */
+/*-------------------------------------------------------------------------------------------------------- */
+#franja_azul{
+background:url("../img/franja_azul.jpg") repeat-x #0430ad;
+float:left;
+height:220px;
+width:100%;
+}
+
+#franja_centro{
+height:180px;
+width:850px;
+margin:0 auto;
+}
+
+.parrafo{
+float:left;
+margin-right:17px;
+}
+
+.parrafo p{
+font-size:14px;
+}
+
+/*-------------------------------------------------------------------------------------------------------- */
+/* Pie */
+/*-------------------------------------------------------------------------------------------------------- */
+#pie{
+background-color:#051b89;
+float:left;
+height:100px;
+width:100%;
+}
+
+#centrar{
+height:100px;
+width:900px;
+text-align:center;
+margin:0 auto;
+}
+
+#centrar a{
+font-size:14px;
+text-decoration:none;
+color:white;
+}
+
+#centrar p{
+margin-top:20px;
+}
